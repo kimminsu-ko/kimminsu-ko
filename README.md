@@ -14,20 +14,15 @@
 ## Focus
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Goal-Spring%20Backend%20Developer-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
-</p>
-
-<p align="center">
   Java와 Spring을 중심으로 도메인, API, 인증/권한 구조를 설계하는 백엔드 개발자를 지향합니다.<br />
   기능 구현에서 끝내지 않고, 배포와 모니터링까지 이해하는 운영 감각을 함께 키우고 있습니다.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java%20Backend-007396?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" />
-  <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ops%20Mindset-Docker%20%7C%20Jenkins%20%7C%20n8n-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ops%20Mindset-AWS%20EC2%20%7C%20Cloudflare%20%7C%20Docker-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white" />
 </p>
 
 <p align="center">
@@ -130,6 +125,7 @@
   <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
   <img src="https://img.shields.io/badge/Loki-555555?style=flat-square" />
   <img src="https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
   <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
