@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
   <img src="https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ops%20Mindset-AWS%20EC2%20%7C%20Cloudflare%20%7C%20Docker-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ops%20Mindset-AWS%20EC2%20%7C%20Cloudflare%20%7C%20Docker%20%7C%20Jenkins%20%7C%20n8n-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white" />
 </p>
 
 <p align="center">
