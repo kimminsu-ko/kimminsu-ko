@@ -15,23 +15,27 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <b>Backend</b><br />
-      Spring Boot · JPA · JWT/OAuth2
+    <td width="25%" valign="top">
+      <b>Java Backend</b><br />
+      Java 기반 도메인과 API 구조를 설계합니다.
     </td>
-    <td width="33%" valign="top">
-      <b>Realtime / Event</b><br />
-      WebSocket · Redis Streams · MQTT · Socket.IO
+    <td width="25%" valign="top">
+      <b>Spring Developer</b><br />
+      Spring Boot, JPA, Security를 깊게 다루는 개발자를 지향합니다.
     </td>
-    <td width="33%" valign="top">
-      <b>Ops</b><br />
-      Docker · Jenkins · nginx · n8n · Grafana · Loki
+    <td width="25%" valign="top">
+      <b>Ops Mindset</b><br />
+      배포, 자동화, 모니터링까지 보는 백엔드를 지향합니다.
+    </td>
+    <td width="25%" valign="top">
+      <b>Learning</b><br />
+      AWS · Spring · .NET
     </td>
   </tr>
 </table>
 
 - 도메인을 먼저 나누고, 오래 유지할 수 있는 구조를 선호합니다.
-- 실시간 상태 변화는 이벤트 흐름과 책임 경계부터 정리합니다.
+- 인증과 권한은 서비스의 기준이 되는 흐름으로 보고 설계합니다.
 - 배포 이후 확인, 복구, 모니터링까지 운영 관점으로 봅니다.
 
 ---
@@ -44,7 +48,9 @@
       <h3><a href="https://github.com/kimminsu-ko/AIEMS">AIEMS</a></h3>
       <p><b>MSA 기반 마이크로그리드 EMS</b></p>
       <p>MQTT, Redis Streams, Socket.IO를 연결해 telemetry 수집부터 AI 예측, 운영 대시보드까지 이어지는 흐름을 설계했습니다.</p>
-      <p><b>Role</b> | Team Lead / Full-stack</p>
+      <p>
+        <img src="https://img.shields.io/badge/Role-Team%20Lead%20%2F%20Full--stack-4A90E2?style=flat-square" />
+      </p>
       <p><b>Stack</b></p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -58,7 +64,9 @@
       <h3><a href="https://github.com/kimminsu-ko/TIKIT">TIKIT</a></h3>
       <p><b>NFC 기반 명함 교환 및 출입 권한 플랫폼</b></p>
       <p>OAuth2/JWT, Redis 토큰 검증, NFC 출입증, WebSocket/FCM 알림 흐름을 백엔드 중심으로 설계했습니다.</p>
-      <p><b>Role</b> | Team Lead / Backend</p>
+      <p>
+        <img src="https://img.shields.io/badge/Role-Team%20Lead%20%2F%20Backend-4A90E2?style=flat-square" />
+      </p>
       <p><b>Stack</b></p>
       <p>
         <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
@@ -74,7 +82,9 @@
       <h3><a href="https://github.com/kimminsu-ko/SSAFYMaker">SSAFYMaker</a></h3>
       <p><b>Phaser 게임과 운영 자동화 프로젝트</b></p>
       <p>STG/PROD/OPS/AUTH 스택을 분리하고 Jenkins, n8n, nginx, Cloudflare 기반 운영 구조를 구성했습니다.</p>
-      <p><b>Role</b> | Infra / Automation</p>
+      <p>
+        <img src="https://img.shields.io/badge/Role-Infra%20%2F%20Automation-FFB000?style=flat-square" />
+      </p>
       <p><b>Stack</b></p>
       <p>
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
@@ -89,7 +99,9 @@
       <h3><a href="https://github.com/kimminsu-ko/silkroadfront">SilkRoad</a></h3>
       <p><b>외국인 대상 국내 여행 리뷰 플랫폼</b></p>
       <p>Vue-i18n 기반 다국어 구조와 API 응답 매핑을 정리하고, 외국인 사용자 관점의 지도 UX를 개선했습니다.</p>
-      <p><b>Role</b> | Frontend</p>
+      <p>
+        <img src="https://img.shields.io/badge/Role-Frontend-42B883?style=flat-square" />
+      </p>
       <p><b>Stack</b></p>
       <p>
         <img src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
@@ -108,6 +120,7 @@
 <p>
   <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" />
   <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
   <img src="https://img.shields.io/badge/WebSocket-66595C?style=flat-square&logo=socketdotio&logoColor=white" />
@@ -122,13 +135,11 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=222222" />
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
 </p>
 
 ---
 
 <p align="center">
-  기능 구현에서 끝내지 않고, 팀이 오래 다룰 수 있는 구조를 만드는 개발자가 되고 싶습니다.
+  Spring 기반 백엔드 개발자로 성장하면서, 팀이 오래 다룰 수 있는 구조를 만드는 것이 목표입니다.
 </p>
