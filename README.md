@@ -13,30 +13,29 @@
 
 ## Focus
 
-<table>
-  <tr>
-    <td width="25%" valign="top">
-      <b>Java Backend</b><br />
-      Java 기반 도메인과 API 구조를 설계합니다.
-    </td>
-    <td width="25%" valign="top">
-      <b>Spring Developer</b><br />
-      Spring Boot, JPA, Security를 깊게 다루는 개발자를 지향합니다.
-    </td>
-    <td width="25%" valign="top">
-      <b>Ops Mindset</b><br />
-      배포, 자동화, 모니터링까지 보는 백엔드를 지향합니다.
-    </td>
-    <td width="25%" valign="top">
-      <b>Learning</b><br />
-      AWS · Spring · .NET
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/Goal-Spring%20Backend%20Developer-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+</p>
 
-- 도메인을 먼저 나누고, 오래 유지할 수 있는 구조를 선호합니다.
-- 인증과 권한은 서비스의 기준이 되는 흐름으로 보고 설계합니다.
-- 배포 이후 확인, 복구, 모니터링까지 운영 관점으로 봅니다.
+<p align="center">
+  Java와 Spring을 중심으로 도메인, API, 인증/권한 구조를 설계하는 백엔드 개발자를 지향합니다.<br />
+  기능 구현에서 끝내지 않고, 배포와 모니터링까지 이해하는 운영 감각을 함께 키우고 있습니다.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java%20Backend-007396?style=flat-square&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" />
+  <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ops%20Mindset-Docker%20%7C%20Jenkins%20%7C%20n8n-2496ED?style=flat-square&logo=docker&logoColor=white" />
+</p>
+
+<p align="center">
+  <b>Currently Learning</b><br />
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+</p>
 
 ---
 
