@@ -1,67 +1,109 @@
-# 안녕하세요, 김민수입니다.
+<h1 align="center">김민수 | Backend Developer</h1>
 
-백엔드를 중심으로 서비스를 만들고, 배포 이후 운영까지 이어지는 구조를 고민합니다.
+<p align="center">
+  서비스의 기능뿐 아니라 인증, 권한, 실시간 이벤트, 배포 이후 운영까지 함께 고민합니다.
+</p>
 
-기능을 빠르게 붙이는 것도 중요하지만, 저는 그 기능이 어떤 도메인 안에서 동작하는지, 인증과 권한은 어디서 막아야 하는지, 장애가 생겼을 때 어디까지 영향을 줄지 먼저 보는 편입니다.
+<p align="center">
+  <a href="mailto:tkatnsdl1996@daum.net"><img src="https://img.shields.io/badge/Email-tkatnsdl1996%40daum.net-4A90E2?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/kimminsu-ko"><img src="https://img.shields.io/badge/GitHub-kimminsu--ko-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
-최근에는 Spring Boot 기반 도메인 설계, Redis/WebSocket 기반 실시간 처리, Docker/Jenkins/nginx 기반 배포 자동화, MSA 이벤트 흐름 설계를 경험하고 있습니다.
+---
 
-[![Email](https://img.shields.io/badge/Email-tkatnsdl1996%40daum.net-0A66C2?style=flat-square)](mailto:tkatnsdl1996@daum.net)
-[![GitHub](https://img.shields.io/badge/GitHub-kimminsu--ko-181717?style=flat-square&logo=github)](https://github.com/kimminsu-ko)
+## Focus
 
-## 제가 주로 보는 것
+<p>
+  <img src="https://img.shields.io/badge/Backend-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Auth-JWT%20%2F%20OAuth2-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/Realtime-WebSocket-66595C?style=flat-square&logo=socketdotio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Event-Redis%20Streams-DC382D?style=flat-square&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ops-Docker%20%7C%20Jenkins%20%7C%20nginx-2496ED?style=flat-square&logo=docker&logoColor=white" />
+</p>
 
-- 요구사항을 도메인 단위로 나누고, 유지보수하기 쉬운 구조로 정리하는 것
-- 인증, 권한, 토큰, 접근 제어처럼 서비스의 기준이 되는 흐름을 설계하는 것
-- 실시간 상태 변화나 알림을 이벤트 흐름으로 자연스럽게 연결하는 것
-- 배포 이후에도 확인하고 복구할 수 있는 운영 구조를 만드는 것
-- 협업 과정에서 기준이 흔들리지 않도록 API 명세와 문서로 맞추는 것
+- 도메인을 먼저 나누고, 오래 유지할 수 있는 구조를 선호합니다.
+- 실시간 상태 변화는 이벤트 흐름과 책임 경계부터 정리합니다.
+- 배포 이후 확인, 복구, 모니터링까지 운영 관점으로 봅니다.
+
+---
 
 ## Projects
 
-### [AIEMS](https://github.com/kimminsu-ko/AIEMS)
-MSA 기반 마이크로그리드 EMS 실시간 모니터링 및 AI 예측 시스템입니다.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kimminsu-ko/AIEMS">AIEMS</a></h3>
+      <p><b>MSA 기반 마이크로그리드 EMS</b></p>
+      <p>MQTT, Redis Streams, Socket.IO를 연결해 telemetry 수집부터 AI 예측, 운영 대시보드까지 이어지는 흐름을 설계했습니다.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Role-Team%20Lead-4A90E2?style=flat-square" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+        <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=eclipsemosquitto&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kimminsu-ko/TIKIT">TIKIT</a></h3>
+      <p><b>NFC 기반 명함 교환 및 출입 권한 플랫폼</b></p>
+      <p>OAuth2/JWT, Redis 토큰 검증, NFC 출입증, WebSocket/FCM 알림 흐름을 백엔드 중심으로 설계했습니다.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Role-Team%20Lead-4A90E2?style=flat-square" />
+        <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+        <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white" />
+        <img src="https://img.shields.io/badge/NFC-222222?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kimminsu-ko/SSAFYMaker">SSAFYMaker</a></h3>
+      <p><b>Phaser 게임과 운영 자동화 프로젝트</b></p>
+      <p>STG/PROD/OPS/AUTH 스택을 분리하고 Jenkins, n8n, nginx, Cloudflare 기반 운영 구조를 구성했습니다.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Role-Infra-FFB000?style=flat-square" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kimminsu-ko/silkroadfront">SilkRoad</a></h3>
+      <p><b>외국인 대상 국내 여행 리뷰 플랫폼</b></p>
+      <p>Vue-i18n 기반 다국어 구조와 API 응답 매핑을 정리하고, 외국인 사용자 관점의 지도 UX를 개선했습니다.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Role-Frontend-42B883?style=flat-square" />
+        <img src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/i18n-555555?style=flat-square" />
+        <img src="https://img.shields.io/badge/Naver%20Map-03C75A?style=flat-square&logo=naver&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
 
-- MQTT, Redis Streams, Socket.IO를 연결해 telemetry 수집부터 운영 화면까지 이어지는 이벤트 흐름을 설계했습니다.
-- 서비스별 producer/consumer 책임을 나누고, EC2 부하 특성에 맞춰 배치 구조를 조정했습니다.
-- AI가 직접 장비를 제어하지 않고 예측과 운영 판단 보조 역할만 하도록 경계를 분리했습니다.
+---
 
-`Python` `Flask` `Redis Streams` `MQTT` `Socket.IO` `PostgreSQL` `TimescaleDB` `Docker`
+## Stack
 
-### [TIKIT](https://github.com/kimminsu-ko/TIKIT)
-NFC 기반 스마트 명함 교환 및 출입 권한 관리 플랫폼입니다.
+<p>
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSocket-66595C?style=flat-square&logo=socketdotio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
+  <img src="https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=222222" />
+</p>
 
-- 팀장으로 백엔드 구조와 인증/권한 흐름을 설계했습니다.
-- OAuth2/JWT, Redis 기반 토큰 검증, NFC 출입증, WebSocket/FCM 알림 흐름을 연결했습니다.
-- Swagger와 문서화를 통해 프론트와 백엔드의 API 해석 차이를 줄였습니다.
+---
 
-`Spring Boot` `JPA` `Redis` `WebSocket` `FCM` `OAuth2` `JWT` `Arduino`
-
-### [SSAFYMaker](https://github.com/kimminsu-ko/SSAFYMaker)
-Phaser 기반 SSAFY 육성 게임과 운영 자동화 프로젝트입니다.
-
-- 단일 EC2에서 STG, PROD, OPS, AUTH 스택을 Docker Compose 단위로 분리했습니다.
-- Jenkins와 n8n으로 배포 및 알림 흐름을 자동화했습니다.
-- nginx와 Cloudflare로 외부 노출 범위를 나누고, Grafana/Loki로 운영 상태를 볼 수 있게 구성했습니다.
-
-`TypeScript` `Phaser` `Spring Boot` `Keycloak` `Docker Compose` `Jenkins` `nginx` `Grafana`
-
-### [SilkRoad](https://github.com/kimminsu-ko/silkroadfront)
-외국인 대상 국내 여행 리뷰 플랫폼 프론트엔드입니다.
-
-- Vue-i18n 기반 다국어 구조를 정리했습니다.
-- 백엔드 API 응답 구조와 프론트 데이터 매핑을 맞춰 렌더링 오류를 줄였습니다.
-- 외국인 사용자에게 주소가 더 잘 전달되도록 지도 API를 검토하고 전환했습니다.
-
-`Vue` `Vue-i18n` `JavaScript` `Naver Map API` `CSS`
-
-## Tech Stack
-
-`Java` `Spring Boot` `JPA` `Spring Security` `JWT/OAuth2`  
-`Redis` `WebSocket` `FCM` `MQTT` `Redis Streams` `Socket.IO`  
-`Docker Compose` `Jenkins` `nginx` `Cloudflare` `Prometheus` `Grafana` `Loki`  
-`Python` `Flask` `PostgreSQL` `TimescaleDB` `React` `TypeScript` `Vue`
-
-## 방향성
-
-지금은 백엔드 중심으로 서비스를 설계하되, 배포 이후 운영과 장애 대응까지 함께 보는 개발자로 성장하고 있습니다. 기능 구현에서 끝내지 않고, 팀이 오래 다룰 수 있는 구조를 만드는 것이 목표입니다.
+<p align="center">
+  기능 구현에서 끝내지 않고, 팀이 오래 다룰 수 있는 구조를 만드는 개발자가 되고 싶습니다.
+</p>
